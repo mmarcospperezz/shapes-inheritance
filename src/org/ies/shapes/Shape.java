@@ -10,7 +10,12 @@ public abstract class Shape {
     }
 
     public abstract Double area();
-    public abstract String showInfo();
+    public  void showInfo(){
+        System.out.println("Info. del vehiculo:" + color);
+        showEspecificInfo();
+    }
+
+    public abstract void showEspecificInfo();
 
     public String getColor() {
         return color;

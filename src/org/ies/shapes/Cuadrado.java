@@ -16,12 +16,8 @@ public class Cuadrado extends Shape{
     }
 
     @Override
-    public String showInfo() {
-        return "";
-    }
-
-    public String info() {
-        return "Cuadrado de color: " + color + ", lado: " + lado + ", área: " + area();
+    public void showEspecificInfo() {
+        System.out.println("Info adicional del cuadrado:" + lado + ". Area del cuadrdado:"+ area());
     }
 
     public Double getLado() {

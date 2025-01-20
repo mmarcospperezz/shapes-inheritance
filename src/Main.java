@@ -10,11 +10,12 @@ public class Main {
         Circulo circulo = new Circulo("azul", 3.3);
         Triangulo triangulo = new Triangulo("verde", 4.4,6.6);
 
+        System.out.println("Areas y informacion de cada forma:");
         System.out.println(cuadrado.area());
         System.out.println(circulo.area());
         System.out.println(triangulo.area());
-        System.out.println(cuadrado.showInfo());
-        System.out.println(circulo.showInfo());
-        System.out.println(triangulo.showInfo());
+        cuadrado.showInfo();
+        circulo.showInfo();
+        triangulo.showInfo();
     }
 }

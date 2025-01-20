@@ -18,8 +18,8 @@ public class Triangulo extends Shape {
     }
 
     @Override
-    public String showInfo() {
-        return "";
+    public void showEspecificInfo() {
+        System.out.println("Info adicional del cuadrado:" + base+ altura + ". Area del triangulo"+ area());
     }
 
     public Double getBase() {
