@@ -17,7 +17,7 @@ public class Cuadrado extends Shape{
 
     @Override
     public void showEspecificInfo() {
-        System.out.println("Info adicional del cuadrado:" + lado + ". Area del cuadrdado:"+ area());
+        System.out.println("Info. adicional del cuadrado:" + lado + ". Area del cuadrdado:"+ area());
     }
 
     public Double getLado() {

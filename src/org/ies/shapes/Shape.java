@@ -11,7 +11,7 @@ public abstract class Shape {
 
     public abstract Double area();
     public  void showInfo(){
-        System.out.println("Info. del vehiculo:" + color);
+        System.out.println("Info. de la forma:" + color);
         showEspecificInfo();
     }
 

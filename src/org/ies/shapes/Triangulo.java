@@ -19,7 +19,7 @@ public class Triangulo extends Shape {
 
     @Override
     public void showEspecificInfo() {
-        System.out.println("Info adicional del cuadrado:" + base+ altura + ". Area del triangulo"+ area());
+        System.out.println("Info adicional del triangulo:" + base+ altura + ". Area del triangulo"+ area());
     }
 
     public Double getBase() {
