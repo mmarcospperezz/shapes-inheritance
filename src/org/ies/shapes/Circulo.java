@@ -17,7 +17,7 @@ public class Circulo extends Shape{
 
     @Override
     public void showEspecificInfo() {
-        System.out.println("Info adicional del circulo:" + radio + ". Area del circulo:"+ area());
+        System.out.println("Info adicional del circulo:" + radio +" "+"Area del circulo:"+ area());
     }
 
     public Double getRadio() {
