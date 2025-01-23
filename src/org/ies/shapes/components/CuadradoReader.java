@@ -4,10 +4,10 @@ import org.ies.shapes.model.Cuadrado;
 
 import java.util.Scanner;
 
-public class CuadrdadoReader {
+public class CuadradoReader {
     private final Scanner scanner;
 
-    public CuadrdadoReader(Scanner scanner) {
+    public CuadradoReader(Scanner scanner) {
         this.scanner = scanner;
     }
 

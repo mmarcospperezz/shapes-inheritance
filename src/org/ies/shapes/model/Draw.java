@@ -13,6 +13,10 @@ public class Draw {
         this.forma = forma;
     }
 
+    public void showInfo(){
+        System.out.println("Informacion del dibujo:" + coordenadasX +" "+ coordenadasY +" "+ forma);
+    }
+
     public double getCoordenadasX() {
         return coordenadasX;
     }
