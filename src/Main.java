@@ -1,6 +1,6 @@
-import org.ies.shapes.Circulo;
-import org.ies.shapes.Cuadrado;
-import org.ies.shapes.Triangulo;
+import org.ies.shapes.model.Circulo;
+import org.ies.shapes.model.Cuadrado;
+import org.ies.shapes.model.Triangulo;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
